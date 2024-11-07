@@ -1,0 +1,93 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    z-index: 999;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 450px;
+    position: relative;
+    transition: all 5s ease-in-out;
+   
+    & h2 {
+        margin-top: 0;
+        color: #333;
+        font-family: Tahoma, Arial, sans-serif;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    & .close {
+        position: absolute;
+        top: 0px;
+        right: 12px;
+        transition: all 200ms;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+
+        &:hover {
+            color: #06D85F;
+        }
+      }
+
+    & .content {
+        max-height: 30%;
+        overflow: auto;
+    }
+    &  .section-title {
+        color: #333;
+        border-bottom: 2px solid #f0f0f0;
+        padding-bottom: 10px;
+        &-end {
+            color: rgb(255, 0, 128);
+            font-size: 23px;
+            text-align: center;
+            text-transform: uppercase;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    }
+
+    & .instruction-list, .pc-instruction-list {
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    & .instruction-list li, .pc-instruction-list li {
+        margin-bottom: 10px;
+    }
+
+    & .step-number {
+        font-weight: bold;
+    }
+  }
+  
+.hide {
+    visibility:hidden;
+    opacity: 0;
+}
+.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media (max-width: 795px) {
+    .popup {
+        width: 95%;
+    }
+}

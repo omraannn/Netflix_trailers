@@ -1,0 +1,58 @@
+@import  "../../assets/colors.scss";
+
+.banner {
+    color: $primary;
+    object-fit: contain;
+    
+    &__contents {
+        margin-left: 30px;
+        padding-top: 220px;
+        padding-bottom: 140px;
+        
+    }
+
+    &__title {
+        font-size: 3rem;
+        font-weight: 800;
+        padding-bottom: 0.3rem;
+    }
+    &__description {
+        width: 55rem;
+        line-height: 1.2rem;
+        padding-top: 1rem;
+        font-size: 0.9rem;
+        max-width: 320px;
+        height: 80px;
+    }
+    &__btns {
+        
+        &_btn {
+            cursor: pointer;
+            color: $primary;
+            outline: none;
+            border: none;
+            font-weight: 700;
+            border-radius: 0.2vw;
+            padding: 1rem 3rem;
+            margin-right: 1rem;
+            background-color: rgba(51,51,51,0.5);
+           
+
+            &:hover {
+                color: $secondary;
+                background-color: $primary;
+                transition: all 0.2s;
+            }
+        }
+    }
+
+    &__fadeBottom {
+        height: 7.4rem;
+        background-image: linear-gradient(
+            180deg,
+            transparent,
+            rgba(37,37,37,0.61),
+            $secondary
+        );
+    }
+}

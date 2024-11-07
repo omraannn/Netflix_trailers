@@ -1,0 +1,13 @@
+API Key:
+a75646e2a465e8a8bbcfff04499bad79
+
+
+API Read Access Token:
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhNzU2NDZlMmE0NjVlOGE4YmJjZmZmMDQ0OTliYWQ3OSIsInN1YiI6IjY2NjkzYTRiY2JlZmE4YjBmNmM4MmM1ZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Tx8S0jXwp_4p3qe78TQRlH8D4t3urHMRTnl9qx7fSv8
+
+
+npm i react-youtube
+
+
+npm i movie-trailer
+

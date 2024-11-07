@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "nxtrailers",
+    "staging": "nxtrailers"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

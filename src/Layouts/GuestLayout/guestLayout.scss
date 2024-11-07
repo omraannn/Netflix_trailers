@@ -1,0 +1,21 @@
+.loginScreen__bg {
+    background: url('https://wpassets.brainstation.io/app/uploads/2017/04/13100509/Netflix-Background.jpg') center no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+
+    
+    &-gradient {
+        background-color: rgba(0, 0, 0, 0.4);
+        background-image: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.8) 0,
+            rgba(0, 0, 0, 0) 60%,
+            rgba(0, 0, 0, 0.8) 100%,
+        );
+        z-index: 1;
+        position: fixed;
+        bottom: 0;
+        top: 0;right: 0;left: 0;
+    }
+}
