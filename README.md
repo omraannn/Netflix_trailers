@@ -4,15 +4,10 @@ A Netflix Trailer App built with React and Firebase that allows users to browse 
 
 ## Table of Contents
 - [Features](#features)
-- [Demo](#demo)
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Folder Structure](#folder-structure)
-- [Technologies](#technologies)
-- [Contributing](#contributing)
-- [License](#license)
+- [Demo](#demo)
 
 ## Features
 - Browse movies and TV shows traillers
