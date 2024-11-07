@@ -34,6 +34,14 @@ Follow these instructions to get a copy of the project up and running on your lo
    git clone https://github.com/your-username/netflix-trailer-app.git
    cd netflix-trailer-app
    ```
+. **Install dependencies**
+   ```bash
+   npm install
+   ```
+. **Start project**
+   ```bash
+   npm run dev
+   ```
 #### Demo
 ![image](https://github.com/user-attachments/assets/85299d83-9857-46ce-9450-fd1f89b5b2c8)
 
